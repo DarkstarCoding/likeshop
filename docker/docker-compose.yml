@@ -36,8 +36,8 @@ services:
     networks:
       - likeshop
     ports:
-      - "80:80"
-      - "443:443"
+      - "180:80"
+      - "1443:443"
 
 
 
@@ -54,7 +54,7 @@ services:
       - likeshop
     ports:
       - "9004:9000"
-    #user: "1000:1000"
+#user: "1000:1000"
 
 
 
