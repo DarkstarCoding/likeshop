@@ -28,11 +28,11 @@ $yxEnv->load($modelInstall->getAppRoot() . '/.example.env');
 $yxEnv->makeEnv($modelInstall->getAppRoot() . '/.env');
 
 $post = [
-    'host' => $_POST['host'] ?? '127.0.0.1',
+    'host' => $_POST['host'] ?? 'likeshop-mysql',
     'port' => $_POST['port'] ?? '3306',
     'user' => $_POST['user'] ?? 'root',
-    'password' => $_POST['password'] ?? '',
-    'name' => $_POST['name'] ?? 'likeshop',
+    'password' => $_POST['password'] ?? 'root',
+    'name' => $_POST['name'] ?? 'likeshop_db',
     'admin_user' => $_POST['admin_user'] ?? '',
     'admin_password' => $_POST['admin_password'] ?? '',
     'admin_confirm_password' => $_POST['admin_confirm_password'] ?? '',
